@@ -1,18 +1,14 @@
 /**
- * @providesModule RNPhotoAlbums
- * @flow
+  @providesModule RNPhotoAlbums
  */
 'use strict';
 
-var NativeRNPhotoAlbums = require('NativeModules').RNPhotoAlbums;
+import { NativeModules } from 'react-native';
+const NativeRNPhotoAlbums = NativeModules.RNPhotoAlbums;
 
-/**
- * High-level docs for the RNPhotoAlbums iOS API can be written here.
- */
-
-var RNPhotoAlbums = {
-  test: function() {
-    NativeRNPhotoAlbums.test();
+const RNPhotoAlbums = {
+  getAlbumTitles: function() {
+    NativeRNPhotoAlbums.getAlbumTitles();
   }
 };
 
