@@ -1,0 +1,22 @@
+{
+  "name": "react-native-photo-albums",
+  "version": "0.0.1",
+  "keywords": [
+    "react-native"
+  ],
+  "description": "Provides data with respect to your photo roll's albums.",
+  "main": "RNPhotoAlbums.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickmacia/react-native-photo-albums.git"
+  },
+  "author": "nick macia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickmacia/react-native-photo-albums/issues"
+  },
+  "homepage": "https://github.com/nickmacia/react-native-photo-albums#readme"
+}
