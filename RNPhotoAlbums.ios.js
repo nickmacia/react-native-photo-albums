@@ -7,8 +7,8 @@ import { NativeModules } from 'react-native';
 const NativeRNPhotoAlbums = NativeModules.RNPhotoAlbums;
 
 const RNPhotoAlbums = {
-  getAlbumTitles: function() {
-    NativeRNPhotoAlbums.getAlbumTitles();
+  getAlbumTitles: function(callback) {
+    NativeRNPhotoAlbums.getAlbumTitles(callback);
   }
 };
 
